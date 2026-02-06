@@ -1,0 +1,30 @@
+workspace 1 output DP-1.9
+workspace 9 output DP-1.8
+workspace 2 output HDMI-0
+workspace 3 output HDMI-0
+workspace 4 output HDMI-0
+workspace 5 output HDMI-0
+workspace 6 output HDMI-0
+workspace 7 output HDMI-0
+workspace 8 output HDMI-0
+
+assign [class="firefox"] workspace 1
+assign [class="Navigator"] workspace 1
+
+assign [class="terminator"] workspace 3
+assign [class="X-terminal-emulator"] workspace 3
+
+assign [class="jetbrains-phpstorm"] workspace 2
+assign [class="phpstorm"] workspace 2
+
+assign [class="google-chrome"] workspace 4
+assign [class="Google-chrome"] workspace 4
+
+assign [class="gedit"] workspace 8
+assign [class="Gedit"] workspace 8
+
+
+#focus_on_window_activation smart|urgent|focus|none
+focus_on_window_activation focus
+
+

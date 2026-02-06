@@ -1,0 +1,1 @@
+bindsym XF86Sleep exec --no-startup-id ~/.local/bin/lock-suspend.sh
